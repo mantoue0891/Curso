@@ -1,3 +1,6 @@
+body{
+  background: #c6c0ab;
+}
 header h1{
   color: #845e47;
 }
@@ -6,4 +9,11 @@ header h1{
   background: #e2c5b3;
   border: 1px solid #e2c5b3;
   text-align: center;
+}
+div.contenedor {
+  background: #b79b37;
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 1px solid #000;
 }
