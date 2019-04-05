@@ -2,6 +2,47 @@
   background: gray;
 }
 
- .nav{
+ .nav-style{
   height: 10%;
+  background-color: #4c998e;
+}
+
+.principal{
+  margin-top: 64px;
+}
+
+.jumbotron{
+  background-color: #4c998e;
+  min-height: 500px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.titulo-cabecera{
+  min-height: 45px;
+  background-color: #994c4c;
+}
+
+.movies-row{
+  background-color: #4c6599;
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.movies-column{
+  margin-top: 5px;
+  background-color: #6e4c99;
+  min-height: 350px;
+  border: 1px dashed #4c7699;
+}
+
+.left-column{
+  border-right: 1px dashed #4c7699;
+}
+
+@media (max-width:770px) {
+  .right-column{
+    display: none;
+  }
 }
