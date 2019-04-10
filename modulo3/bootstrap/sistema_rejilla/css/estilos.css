@@ -1,0 +1,150 @@
+.cinema-body{
+  background-image:  url(../img/cinema.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+ .navbar-inverse{
+  background-color: #082D5E;
+  min-height: 10%;
+  border: none;
+}
+.logo-img{
+  height: 85px;
+  width: 100px;
+}
+.container-fluid{
+  margin-top: 64px;
+}
+
+.jumbotron{
+  background-image: url(../img/cinema.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+
+.welcome-title{
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+
+.titulo-cartelera{
+  width: 100%;
+  min-height: 45px;
+  background: rgba(8, 45, 94, 0.95);
+}
+
+.jumbotron-img{
+  margin-top: 20px;
+}
+
+.jumbotron-text{
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.redes-sociales{
+  margin-top: 20px;
+}
+
+.img-social{
+  width: 40px;
+  height: 40px;
+}
+.titulo-text{
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.movie-title{
+  color: #FFFFFF;
+}
+
+.img-movies {
+  width: 100%;
+  height: 260px;
+  margin-top: 22px;
+  padding: 6px;
+}
+.movies-row{
+  background: rgba(0, 103, 142, 0.8);
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.movies-column{
+  margin-top: 5px;
+  background: #00678E;
+  min-height: 330px;
+  border: 1px dashed #FFFFFF;
+}
+
+.left-column{
+  border-right: 1px dashed #FFFFFF;
+}
+
+.services-text{
+  color: #FFFFFF;
+}
+.user_data{
+  margin-top: 10px;
+  font-size: 18px;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+.input-element{
+  width: 100%;
+  height: 28px;
+  padding: 10px;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  margin-top: 5px;
+}
+.label-class{
+  font-size: 13px;
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+
+.btn-save{
+  width: 40%;
+  background: rgba(255, 25, 128, 0.95);
+  color: #FFFFFF;
+}
+@media (max-width:770px) {
+  h2{
+    font-size: 22px;
+  }
+  .titulo-cabecera{
+    font-size: 15px;
+  }
+  .jumbotron{
+    min-height: 400px;
+  }
+  .jumbotron-img{
+    margin-top: 20px;
+  }
+  .right-column{
+    display: none;
+  }
+  .movies-row{
+    min-height: 250px;
+  }
+  .movies-column{
+    min-height: 230px;
+  }
+  .jumbotron{
+    min-height: 350px;
+  }
+}
