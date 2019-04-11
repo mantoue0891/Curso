@@ -1,0 +1,33 @@
+.encabezado{
+  height: 4rem;
+}
+
+.grupos{
+  height: 50rem;
+  border: 1px solid #80deea;
+}
+
+.principal{
+  height: 50rem;
+  border: 1px solid #80deea;
+}
+
+.publicaciones{
+  height: 50rem;
+  border: 1px solid #80deea;
+}
+
+.noticias{
+  height: 50rem;
+  border: 1px solid #80deea;
+}
+
+.chat{
+  height: 50rem;
+  border: 1px solid #80deea;
+  padding: 0 !important;
+}
+
+.actividad{
+  height: 25rem;
+}
